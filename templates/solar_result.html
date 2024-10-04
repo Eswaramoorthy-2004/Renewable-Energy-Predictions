@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar/Wind Energy Prediction Result</title>
+    <style>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f2f2f2;
+            }
+            h1 {
+                text-align: center;
+                margin-top: 50px;
+                color: #333;
+            }
+            p {
+                text-align: center;
+                margin-top: 20px;
+                color: #555;
+            }
+            a {
+                display: block;
+                text-align: center;
+                margin-top: 20px;
+                text-decoration: none;
+                color: #007bff;
+                transition: color 0.3s ease;
+            }
+            a:hover {
+                color: #0056b3;
+            }
+        </style>
+        <style>
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f9f9f9;
+            }
+            h1 {
+                text-align: center;
+                margin-top: 50px;
+                color: #333;
+                font-size: 36px;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            }
+            p {
+                text-align: center;
+                margin-top: 30px;
+                color: #555;
+                font-size: 20px;
+            }
+            .result {
+                font-size: 24px;
+                font-weight: bold;
+                color: #007bff;
+            }
+            a {
+                display: block;
+                text-align: center;
+                margin-top: 40px;
+                text-decoration: none;
+                color: #007bff;
+                transition: color 0.3s ease;
+                font-size: 18px;
+            }
+            a:hover {
+                color: #0056b3;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            }
+        </style>
+        
+    </style>
+</head>
+<body>
+    <h1>Solar Energy Prediction Result</h1>
+    <p class="Result">The predicted energy generation is: <br><br>{{ prediction }}  mwh (Mega Volt)</p>
+    <br>
+    <br>
+    <a href="/predict/solar">Back to Solar Energy Prediction</a>
+    <!-- Or -->
+    <a href="/predict/wind">Back to Wind Energy Prediction</a>
+</body>
+</html>

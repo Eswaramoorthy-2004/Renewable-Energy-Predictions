@@ -1,0 +1,80 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Light gray background */
+    color: #333; /* Dark text color */
+}
+
+/* Heading Styles */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #333; /* Dark heading color */
+}
+
+/* Form Styles */
+form {
+    margin: 0 auto;
+    width: 80%; /* Adjust form width */
+    max-width: 400px;
+    background-color: #fff; /* White background */
+    padding: 30px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555; /* Gray label color */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Result Styles */
+.Result {
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff; /* Blue result text color */
+    font-size: 1.2em; /* Larger font size */
+}
+
+/* Link Styles */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007bff; /* Blue link color */
+    transition: color 0.3s ease; /* Smooth transition */
+}
+
+a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wind Energy Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+        }
+        p {
+            text-align: center;
+            margin-top: 20px;
+            background_color:red;
+        }
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #007bff;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Wind Energy Prediction Result</h1>
+    <p>The predicted wind energy generation is: <br><br>{{ prediction }} kWh (Kilo Volt)</p>
+    <br>
+    <br>
+    <a href="/predict/wind">Back to Wind Energy Prediction</a>
+</body>
+</html>
